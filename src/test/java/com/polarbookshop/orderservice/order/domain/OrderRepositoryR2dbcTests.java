@@ -28,7 +28,7 @@ class OrderRepositoryR2dbcTests {
 
 	@Container
 	static PostgreSQLContainer<?> postgresql = new PostgreSQLContainer<>(
-	    DockerImageName.parse("postgres:15.2")
+	    DockerImageName.parse("postgres:14.3")
     );
 	
 	@Autowired
